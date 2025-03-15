@@ -1,0 +1,3 @@
+server: {
+  allowedHosts: ['kawkaw.my'],
+}
