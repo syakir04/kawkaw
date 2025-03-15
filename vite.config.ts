@@ -8,4 +8,13 @@ export default defineConfig({
     devSourcemap: true,
   },
   plugins: [vue()],
+  preview: {
+		port: 3000,
+		strictPort: true,
+		host: '0.0.0.0',
+		allowedHosts: true,
+	},
+	server: {
+		allowedHosts: true
+	},
 });
