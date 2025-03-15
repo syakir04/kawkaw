@@ -12,7 +12,7 @@
           <MDBBtn class="cta-button">
             <router-link to="#cta" class="no-link-style" >Dapatkan Sebut Harga</router-link>
           </MDBBtn>
-          <div class="payment-methods mt-4 d-flex gap-3" style="justify-content: center;">
+          <div class="payment-methods mt-4 d-flex gap-3" style="justify-content: start;">
             <img class="logo" src="/boost-logo.png" alt="Boost"  />
             <img class="logo" src="/grab-pay-logo-A0CA65B6C4-seeklogo.com.png" alt="GrabPay"  />
             <img class="logo" src="/spaylater-logo_x602.webp" alt="SPayLater"  />
@@ -237,6 +237,7 @@ html {
 }
 .logo{
   height: 50px;
+  justify-content: start;
 }
 *{
   font-family: 'Montserrat', sans-serif;
@@ -368,7 +369,7 @@ p{
 .right { right: 10px; }
 
 .faq-section {
-  background-color: #003f88;
+  background-color: #15317e;
   padding: 50px 20px;
 }
 
@@ -419,7 +420,6 @@ p{
   .logo{
   height: 30px;
   justify-content: center;
-  align-items: center;
   }
   .feature-card {
     margin-bottom: 20px;
