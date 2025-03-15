@@ -12,7 +12,7 @@
           <MDBBtn class="cta-button">
             <router-link to="#cta" class="no-link-style" >Dapatkan Sebut Harga</router-link>
           </MDBBtn>
-          <div class="payment-methods mt-4 d-flex gap-3" style="justify-content: start;">
+          <div class="payment-methods mt-4 d-flex gap-3 payment" >
             <img class="logo" src="/boost-logo.png" alt="Boost"  />
             <img class="logo" src="/grab-pay-logo-A0CA65B6C4-seeklogo.com.png" alt="GrabPay"  />
             <img class="logo" src="/spaylater-logo_x602.webp" alt="SPayLater"  />
@@ -60,7 +60,7 @@
         <div class="col-md-6" >
           <div class="steps">
             <h2 class="fw-bold text-primary h2" style="color: #15317e !important;">Mudah je! 3 Langkah Cepat Untuk Dapatkan Insurans</h2>
-          <div class=" mt-4">
+          <div class=" mt-4 but">
             <button class="cta-button whatsapp" @click="getNextWhatsAppNumber" ><i class="fab fa-whatsapp-square"></i> WhatsApp Kawkaw Sekarang</button>
             <button class="cta-button" @click="advancedform"><i class="far fa-file-alt"></i> Hantar Borang Pertanyaan</button>
           </div>
@@ -83,7 +83,7 @@
         <div class="testimonial-content">
           <img :src="testimonies[currentIndex].image" class="profile-img" alt="User Image" />
           <h6 class="text-white">{{ testimonies[currentIndex].name }}, {{ testimonies[currentIndex].location }}</h6>
-          <p class="text-white">"{{ testimonies[currentIndex].message }}"</p>
+          <p class="text-white review">"{{ testimonies[currentIndex].message }}"</p>
         </div>
 
         <button class="nav-btn right" @click="nextTestimony">
@@ -255,7 +255,9 @@ p{
   font-size: 1em;
   line-height: 1.2em;
 }
-
+.payment{
+  justify-content: start;
+}
 .hero-section {
   background-color: #e8efff;
   padding-top: 0%;
@@ -412,6 +414,16 @@ p{
   .hero-section .row, .steps-section .row {
     flex-direction: column-reverse;
     padding: 0 10px;
+  }
+  .but{
+    padding-bottom: 16px;
+  }
+  .review{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .payment{
+    justify-content: center;
   }
   .agent-img {
   max-width: 300px;
