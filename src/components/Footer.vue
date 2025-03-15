@@ -4,7 +4,7 @@
       <div class="row">
         <!-- Left Section -->
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-4">
-          <img src="/kawkawLogo.png" alt="Rotikaya Logo" class="img-fluid" style="max-width: 280px; padding-bottom: 20px;">
+          <img src="/kawkawputih.png" alt="Rotikaya Logo" class="img-fluid" style="max-width: 280px; padding-bottom: 20px;">
           <h5 class="text-uppercase fw-bold">Kaw Kaw Sdn Bhd</h5>
           <p>202101037810 (1438110-M)</p>
           <p><i class="fas fa-phone"></i> Customer Service: +601351333290</p>
@@ -54,7 +54,7 @@
 
     <!-- Copyright -->
     <div class="text-center p-3 " style="background-color:#15317e !important;">
-      <p class="mb-0 ">Kaw Kaw Sdn Bhd 202101037810 (1438110-M) © 2025</p>
+      <p class="mb-0 ">KawKaw Sdn Bhd 202101037810 (1438110-M) © 2025</p>
     </div>
   </footer>
 </template>
